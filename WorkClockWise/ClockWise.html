@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+	<title>WiseUp.com</title>
+	<script src = "js/script.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		function myFunction() {
+ 			var x = document.getElementById("myLinks");
+  			if (x.style.display === "block") {
+    				x.style.display = "none";
+				document.body.style.height = '900px';
+  			} 
+			else 
+			{
+    				x.style.display = "block";
+				document.body.style.height = '1500px';
+  			}
+		}
+	</script>
+    </head>
+    <body onload="realtimeClock()">
+	<div class="main-container">
+		<div class="preload-images"></div>
+		<div class="topnav">
+  			<a class = "active">UNWISE STUDIOS</a>
+  			<div id="myLinks">
+    				<a href="#news">News</a>
+    				<a href="#contact">Contact</a>
+    				<a href="#about">About</a>
+  			</div>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+ 			 </a>
+		</div>
+		<div id = "clock"></div>
+		<div id = "date"></div>
+		<h1>UNWISE STUDIOS</h1>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<h2>NOTHING IS IMPOSSIBLE</h2>
+		<center><button class="button" onclick="location.href='#About'" type="button">LEARN MORE</button></center>
+		<footer class="footer-distributed">
+			<div class="footer-left">
+          		<img src="Logo/Logo6.jpg">
+				<h3>About <span>UNWISE STUDIOS</span></h3>
+				<p class="footer-links">
+					<a href="#Home">Home</a>
+					|
+					<a href="#News">News</a>
+					|
+					<a href="#Contact">Contact</a>
+					|
+					<a href="#About">About</a>
+				</p>
+				<p class="footer-company-name">© 2020 UNWISE STUDIOS PVT. LTD.</p>
+			</div>
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>606 - 186 Church Street East</span>
+						   Brampton, Ontario, Canada - L6V1H3</p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 (905)-453-3125</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@unwisestudios.com">support@unwisestudios.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About UNWISE STUDIOS</span>
+					UNWISE STUDIOS offers services ranging from websites designs to video games creations!</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+    </body>
+</html>
